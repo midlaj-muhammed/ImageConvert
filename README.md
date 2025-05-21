@@ -64,22 +64,48 @@ pnpm dev
 
 ImageConvert/
 ├── src/
-│ ├── components/ # Reusable components
-│ │ ├── Dashboard/ # Dashboard components
-│ │ ├── ImageConverter/ # Image conversion components
-│ │ └── ui/ # UI components
-│ ├── pages/ # Page components
-│ ├── contexts/ # React contexts
-│ ├── hooks/ # Custom React hooks
-│ ├── lib/ # Utility functions
-│ ├── App.tsx # Main application component
-│ └── main.tsx # Application entry point
-├── public/ # Static assets
-├── .gitignore
-├── package.json # Project dependencies
-├── tailwind.config.ts # TailwindCSS configuration
-├── tsconfig.json # TypeScript configuration
-└── vite.config.ts # Vite configuration
+│   ├── components/
+│   │   ├── Dashboard/
+│   │   │   ├── DashboardLayout.tsx
+│   │   │   ├── DashboardHeader.tsx
+│   │   │   └── ConversionHistory.tsx
+│   │   ├── ImageConverter/
+│   │   │   ├── ImageConversionApp.tsx
+│   │   │   ├── ImageUploader.tsx
+│   │   │   ├── FormatSelector.tsx
+│   │   │   └── ConversionPreview.tsx
+│   │   ├── LandingPage/
+│   │   │   └── FeaturesSection.tsx
+│   │   └── ui/
+│   │       ├── button.tsx
+│   │       ├── card.tsx
+│   │       ├── input.tsx
+│   │       ├── progress.tsx
+│   │       ├── sidebar.tsx
+│   │       ├── table.tsx
+│   │       └── ... (other UI components)
+│   ├── pages/
+│   │   ├── DashboardPage.tsx
+│   │   ├── HistoryPage.tsx
+│   │   ├── HomePage.tsx
+│   │   ├── LoginPage.tsx
+│   │   └── RegisterPage.tsx
+│   ├── contexts/
+│   │   └── AuthContext.tsx
+│   ├── hooks/
+│   │   └── use-toast.ts
+│   ├── lib/
+│   │   └── utils.ts
+│   ├── App.tsx
+│   └── main.tsx
+├── public/
+│   └── ... (static assets)
+├── index.html
+├── package.json
+├── tailwind.config.ts
+├── tsconfig.json
+├── vite.config.ts
+└── eslint.config.js
 
 
 ## �� Usage
