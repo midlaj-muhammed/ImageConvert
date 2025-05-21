@@ -61,6 +61,7 @@ pnpm dev
 4. Open your browser and visit `http://localhost:5173`
 
 ## 📁 Project Structure
+
 ImageConvert/
 ├── src/
 │ ├── components/ # Reusable components
