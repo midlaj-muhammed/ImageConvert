@@ -1,20 +1,31 @@
-# Welcome to your EzSite project
+# 🖼️ ImageConvert
 
-A clean, modern React template with TypeScript, Vite, TailwindCSS, and ShadCN UI components. This template provides a solid foundation for building web applications with best practices in mind.
+A modern, user-friendly web application for converting images between different formats. Built with React, TypeScript, and a beautiful UI.
 
-## Tech Features
+## ✨ Features
+
+- 🎯 **Multiple Format Support**: Convert between PNG, JPEG, WebP, and GIF formats
+- 🚀 **Fast Conversion**: Quick and efficient image processing
+- 🔒 **Secure**: All processing happens in your browser - your images never leave your device
+- 📱 **Responsive Design**: Works seamlessly on desktop and mobile devices
+- 🎨 **Modern UI**: Clean and intuitive interface with smooth animations
+- 📊 **Conversion History**: Track your past conversions
+- 💾 **Easy Download**: One-click download of converted images
+- 🎯 **Image Optimization**: Automatic compression and size optimization
+
+## 🛠️ Tech Stack
 
 - ⚡️ **Vite** - Lightning fast build tool
 - 🔥 **React 18** - Latest React features
-- 🧩 **TypeScript** - Type safety for better developer experience
+- 🧩 **TypeScript** - Type safety
 - 🎨 **TailwindCSS** - Utility-first CSS framework
-- 🧰 **ShadCN UI** - Accessible and customizable UI components
+- 🧰 **ShadCN UI** - Beautiful and accessible components
 - 📱 **Responsive Design** - Mobile-first approach
-- 🧭 **React Router** - Easy client-side routing
-- 🔄 **React Query** - Data fetching and state management
-- 🧪 **Form Handling** - React Hook Form with Zod validation
+- 🧭 **React Router** - Client-side routing
+- 🔄 **React Query** - Data management
+- 📝 **React Hook Form** - Form handling with Zod validation
 
-## Getting Started
+## 🚀 Getting Started
 
 ### Prerequisites
 
@@ -23,10 +34,10 @@ A clean, modern React template with TypeScript, Vite, TailwindCSS, and ShadCN UI
 
 ### Installation
 
-1. Clone this repository:
+1. Clone the repository:
 ```bash
-git clone https://github.com/your-username/react-template-project.git
-cd react-template-project
+git clone https://github.com/your-username/ImageConvert.git
+cd ImageConvert
 ```
 
 2. Install dependencies:
@@ -49,34 +60,41 @@ pnpm dev
 
 4. Open your browser and visit `http://localhost:5173`
 
-## Project Structure
-
-```
-react-template-project/
-├── public/              # Static assets
-│   ├── components/      # Reusable components
-│   │   └── ui/          # UI components from ShadCN
-│   ├── hooks/           # Custom React hooks
-│   ├── lib/             # Utility functions and libraries
-│   ├── pages/           # Page components
-│   ├── App.tsx          # Main application component
-│   ├── index.css        # Global styles
-│   └── main.tsx         # Application entry point
+## 📁 Project Structure
+ImageConvert/
+├── src/
+│ ├── components/ # Reusable components
+│ │ ├── Dashboard/ # Dashboard components
+│ │ ├── ImageConverter/ # Image conversion components
+│ │ └── ui/ # UI components
+│ ├── pages/ # Page components
+│ ├── contexts/ # React contexts
+│ ├── hooks/ # Custom React hooks
+│ ├── lib/ # Utility functions
+│ ├── App.tsx # Main application component
+│ └── main.tsx # Application entry point
+├── public/ # Static assets
 ├── .gitignore
-├── package.json         # Project dependencies and scripts
-├── tailwind.config.ts   # TailwindCSS configuration
-├── tsconfig.json        # TypeScript configuration
-└── vite.config.ts       # Vite configuration
-```
+├── package.json # Project dependencies
+├── tailwind.config.ts # TailwindCSS configuration
+├── tsconfig.json # TypeScript configuration
+└── vite.config.ts # Vite configuration
 
-## Customization
 
-- **Styling**: Modify `tailwind.config.ts` to customize your design tokens
-- **Components**: Add or modify components in the `src/components` directory
-- **Pages**: Create new pages in the `src/pages` directory
-- **Routing**: Update routes in `src/App.tsx`
+## �� Usage
 
-## Building for Production
+1. **Upload Image**: Drag and drop or click to select an image
+2. **Choose Format**: Select your desired output format
+3. **Convert**: Click the convert button
+4. **Download**: Save your converted image
+
+## 🔧 Configuration
+
+- **Image Size Limit**: 10MB per file
+- **Supported Formats**: PNG, JPEG, WebP, GIF
+- **Compression**: Automatic optimization with configurable settings
+
+## 🏗️ Building for Production
 
 ```bash
 npm run build
@@ -87,5 +105,17 @@ pnpm build
 ```
 
 The built files will be in the `dist` directory, ready to be deployed.
-# ImageConvert
-# ImageConvert
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## 📝 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🙏 Acknowledgments
+
+- [browser-image-compression](https://github.com/Donaldcwl/browser-image-compression) for image compression
+- [file-saver](https://github.com/eligrey/FileSaver.js) for file download functionality
+- [ShadCN UI](https://ui.shadcn.com/) for beautiful UI components
