@@ -60,53 +60,6 @@ pnpm dev
 
 4. Open your browser and visit `http://localhost:5173`
 
-## 📁 Project Structure
-
-ImageConvert/
-├── src/
-│   ├── components/
-│   │   ├── Dashboard/
-│   │   │   ├── DashboardLayout.tsx
-│   │   │   ├── DashboardHeader.tsx
-│   │   │   └── ConversionHistory.tsx
-│   │   ├── ImageConverter/
-│   │   │   ├── ImageConversionApp.tsx
-│   │   │   ├── ImageUploader.tsx
-│   │   │   ├── FormatSelector.tsx
-│   │   │   └── ConversionPreview.tsx
-│   │   ├── LandingPage/
-│   │   │   └── FeaturesSection.tsx
-│   │   └── ui/
-│   │       ├── button.tsx
-│   │       ├── card.tsx
-│   │       ├── input.tsx
-│   │       ├── progress.tsx
-│   │       ├── sidebar.tsx
-│   │       ├── table.tsx
-│   │       └── ... (other UI components)
-│   ├── pages/
-│   │   ├── DashboardPage.tsx
-│   │   ├── HistoryPage.tsx
-│   │   ├── HomePage.tsx
-│   │   ├── LoginPage.tsx
-│   │   └── RegisterPage.tsx
-│   ├── contexts/
-│   │   └── AuthContext.tsx
-│   ├── hooks/
-│   │   └── use-toast.ts
-│   ├── lib/
-│   │   └── utils.ts
-│   ├── App.tsx
-│   └── main.tsx
-├── public/
-│   └── ... (static assets)
-├── index.html
-├── package.json
-├── tailwind.config.ts
-├── tsconfig.json
-├── vite.config.ts
-└── eslint.config.js
-
 
 ## �� Usage
 
